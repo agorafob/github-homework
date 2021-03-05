@@ -3,7 +3,14 @@ public class Main {
         System.out.println("Hello World!");
     }
 
-    public static void print (String line){
+    public static void print(String line) {
         System.out.println(line);
+    }
+
+    public static void print(String line, int numberOfLines) {
+        while (numberOfLines != 0) {
+            System.out.println(line);
+            numberOfLines--;
+        }
     }
 }
